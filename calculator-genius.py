@@ -37,7 +37,7 @@ def operate():
 
 # Create the main window
 window = tk.Tk()
-window.title("Calculator - 93|\\|!(_)5")
+window.title("Calculator - |_337 - 93|\\|!(_)5")
 
 # Create the display
 display = tk.Entry(window, width=40, borderwidth=5)
@@ -63,9 +63,16 @@ for i in range(5):
 for i in range(5):  
     window.grid_columnconfigure(i, weight=1, uniform="col")
     
-    # Create a frame for the background color in column 4, rows 1-3
+ # Create a frame for the background color in column 4, rows 1-3
 background_frame = tk.Frame(window, bg="#10283a")
 background_frame.grid(row=0, column=4, rowspan=4, sticky="nsew")
+
+# Insert vertical text in the background frame
+vertical_text = tk.Label(background_frame, text="Leet-Genius", bg="#10283a", fg="white", font=("Helvetica", 12), padx=10, pady=10, wraplength=1)
+vertical_text.grid(row=0, column=0)
+
+# Rotate the text vertically and center it
+vertical_text.place(relx=0.5, rely=0.5, anchor="center")
 
 # Run the application
 window.mainloop()
