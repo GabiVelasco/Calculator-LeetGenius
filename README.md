@@ -1,16 +1,8 @@
-Thank you for clarifying. In that case, you should use `calculator-leetgenius.py` as the filename when running the application. Here's the corrected section for running the application:
-
-```bash
-python calculator-leetgenius.py
-```
-
-I'll update the README and CHANGELOG accordingly.
-
 **README.md**
 
-# Calculator-Genius
+# Calculator-LeetGenius
 
-This is a simple calculator application named Calculator-Genius built using Python's Tkinter library. It provides basic arithmetic operations such as addition, subtraction, multiplication, and division. The calculator also supports clearing the display and deleting the last character entered.
+This is a simple calculator application named Calculator-LeetGenius built using Python's Tkinter library. It provides basic arithmetic operations such as addition, subtraction, multiplication, and division. The calculator also supports clearing the display and deleting the last character entered.
 
 ## Features
 
