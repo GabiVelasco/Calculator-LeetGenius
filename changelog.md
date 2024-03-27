@@ -2,7 +2,11 @@
 
 ## Version 1.0.0 (2024-03-27)
 
-- Initial release of the simple calculator application.
-- Provides basic arithmetic operations and error handling.
-- Supports clearing the display and deleting the last character.
-- Runs on Python 3.x using the Tkinter library.
+- Renamed file to `calculator-leetgenius.py`.
+- Added README file.
+- Added CHANGELOG file.
+- Changed file name to `calculator-genius`.
+- Added Leet Speak name "Leet Genius" in the README.
+- Added screenshot of the calculator.
+- Changed file name back to `calculator-leetgenius.py`.
+- Initial commit.
